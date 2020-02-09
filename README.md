@@ -138,23 +138,29 @@ by_style_usa = df_usa.groupby('Style').mean().sort_values('Rate', ascending=Fals
 Here are results of first 10 records of each country:
 
 a) Poland
+
 ![](./img/poland_head.PNG)
 
 b) Germany
+
 ![](./img/germany_head.PNG)
 
 c) United States
+
 ![](./img/us_head.PNG)
 
 Next the data was grouped by the style of beer and the rates were aggreated to avarage of each style.
 
 a) Poland
+
 ![](./img/poland_grouped.PNG)
 
 b) Germany
+
 ![](./img/germany_grouped.PNG)
 
 c) United States
+
 ![](./img/us_grouped.PNG)
 
 ## Sources
